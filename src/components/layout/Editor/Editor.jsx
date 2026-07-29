@@ -1,6 +1,7 @@
+import "./Editor.css"
 function Editor() {
     return(
-        <section>
+        <section className="editor">
             Editor
         </section>
     );

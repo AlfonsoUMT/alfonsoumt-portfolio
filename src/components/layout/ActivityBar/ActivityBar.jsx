@@ -1,6 +1,7 @@
+import "./ActivityBar.css"
 function ActivityBar() {
     return(
-        <aside>
+        <aside className="activity-bar">
             ActivityBar
         </aside>
     );

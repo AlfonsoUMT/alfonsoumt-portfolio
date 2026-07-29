@@ -1,6 +1,7 @@
+import "./StatusBar.css"
 function StatusBar(){
     return(
-        <footer>
+        <footer className="status-bar">
             StatusBar
         </footer>
     );
