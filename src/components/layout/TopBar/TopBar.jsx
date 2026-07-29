@@ -3,6 +3,6 @@ function TopBar(){
         <header>
             TopBar
         </header>
-    )
+    );
 }
 export default TopBar;

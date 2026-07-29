@@ -9,13 +9,11 @@ function MainLayout(){
 
             <main>
                 <ActivityBar />
-
                 <Editor />
-
             </main>
 
-            <Statusbar />
+            <StatusBar />
         </>
-    )
+    );
 }
 export default MainLayout;

@@ -3,6 +3,6 @@ function ActivityBar() {
         <aside>
             ActivityBar
         </aside>
-    )
+    );
 }
 export default ActivityBar;

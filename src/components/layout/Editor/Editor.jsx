@@ -3,6 +3,6 @@ function Editor() {
         <section>
             Editor
         </section>
-    )
+    );
 }
 export default Editor;

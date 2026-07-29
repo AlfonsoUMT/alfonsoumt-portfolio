@@ -3,7 +3,7 @@ function StatusBar(){
         <footer>
             StatusBar
         </footer>
-    )
+    );
 }
 
 export default StatusBar;
