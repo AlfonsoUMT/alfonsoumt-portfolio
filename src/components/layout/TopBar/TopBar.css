@@ -1,3 +1,4 @@
+/* TopBar */
 .topbar {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
@@ -13,43 +14,108 @@
     border-bottom: 1px solid var(--color-border);
 }
 
+
 .topbar__left {
     justify-self: start;
 }
+
 
 .topbar__center {
     justify-self: center;
 }
 
+
 .topbar__right {
     justify-self: end;
+
+    display: flex;
+    align-items: center;
+
+    gap: 1rem;
 }
+
 
 .brand {
     display: flex;
     align-items: center;
+
     gap: .6rem;
 }
 
+
 .brand__icon {
     color: var(--color-accent);
+
     font-family: var(--font-mono);
 }
+
 
 .brand__name {
     font-size: .9rem;
+
     font-weight: 600;
 }
 
+
 .topbar__file {
     font-family: var(--font-mono);
+
     color: var(--color-text-muted);
 }
-.topbar__right {
-    gap: 1rem;
+
+
+/* Theme button */
+
+.theme-button {
+
+    width: 32px;
+    height: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+
+    background: transparent;
+
+    color: var(--color-text-muted);
+
+    cursor: pointer;
+
+    border-radius: var(--radius-sm);
+
+    transition:
+        background .2s ease,
+        color .2s ease;
 }
 
-.window-controls__logo {
+
+.theme-button:hover {
+
+    background: var(--color-surface-light);
+
     color: var(--color-accent);
+
+}
+
+
+.theme-button svg {
+
+    width: 18px;
+    height: 18px;
+}
+
+
+/* Signature */
+
+.topbar__signature {
+
+    color: var(--color-accent);
+
     font-family: var(--font-mono);
+
+    opacity: .8;
+
+    line-height: 1;
 }

@@ -1,3 +1,4 @@
+import { LuMoon } from "react-icons/lu";
 import "./TopBar.css";
 
 function TopBar() {
@@ -5,7 +6,6 @@ function TopBar() {
         <header className="topbar">
 
             <div className="topbar__left">
-
                 <div className="brand">
 
                     <code className="brand__icon">
@@ -17,24 +17,26 @@ function TopBar() {
                     </span>
 
                 </div>
-
             </div>
 
-            <div className="topbar__center">
 
+            <div className="topbar__center">
                 <span className="topbar__file">
                     about.jsx
                 </span>
-
             </div>
 
             <div className="topbar__right">
 
-                <button className="theme-button" type="button" aria-label="Cambiar tema">
-                    🌙
+                <button
+                    className="theme-button"
+                    type="button"
+                    aria-label="Cambiar tema"
+                >
+                    <LuMoon />
                 </button>
 
-                <code className="window-controls__logo">
+                <code className="topbar__signature">
                     {"<A/>"}
                 </code>
 

@@ -5,21 +5,61 @@ import {
     VscTools,
     VscMail
 } from "react-icons/vsc";
+
 import { MdLanguage } from "react-icons/md";
-import "./ActivityBar.css"
+
+import ActivityButton from "./ActivityButton";
+import "./ActivityBar.css";
 function ActivityBar() {
-    return(
+
+    return (
+
         <aside className="activitybar">
 
             <div className="activitybar__top">
-                Top
+
+                <ActivityButton
+                    icon={<VscFiles />}
+                    label="About"
+                    active
+                />
+
+                <ActivityButton
+                    icon={<VscAccount />}
+                    label="Profile"
+                />
+
+                <ActivityButton
+                    icon={<VscFolderLibrary />}
+                    label="Projects"
+                />
+
+                <ActivityButton
+                    icon={<VscTools />}
+                    label="Skills"
+                />
+
+                <ActivityButton
+                    icon={<VscMail />}
+                    label="Contact"
+                />
+
             </div>
 
+
             <div className="activitybar__bottom">
-                Bottom
+
+                <ActivityButton
+                    icon={<MdLanguage />}
+                    label="Language"
+                />
+
             </div>
 
         </aside>
+
     );
+
 }
+
 export default ActivityBar;
