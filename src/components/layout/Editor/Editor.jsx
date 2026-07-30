@@ -1,9 +1,17 @@
-import "./Editor.css"
+import "./Editor.css";
+import EditorTabs from "./EditorTabs";
+import EditorContent from "./EditorContent";
+
 function Editor() {
-    return(
+    return (
         <section className="editor">
-            Editor
+
+            <EditorTabs />
+
+            <EditorContent />
+
         </section>
     );
 }
+
 export default Editor;

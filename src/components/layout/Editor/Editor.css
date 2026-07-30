@@ -1,3 +1,7 @@
-.editor{
-    background: #181818;
+.editor {
+
+    display: flex;
+    flex-direction: column;
+
+    background: var(--color-background);
 }
