@@ -1,3 +1,55 @@
-.top-bar{
-    background: #1e1e1e;
+.topbar {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+
+    align-items: center;
+
+    height: var(--topbar-height);
+
+    padding: 0 14px;
+
+    background: var(--color-surface);
+
+    border-bottom: 1px solid var(--color-border);
+}
+
+.topbar__left {
+    justify-self: start;
+}
+
+.topbar__center {
+    justify-self: center;
+}
+
+.topbar__right {
+    justify-self: end;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.brand__icon {
+    color: var(--color-accent);
+    font-family: var(--font-mono);
+}
+
+.brand__name {
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.topbar__file {
+    font-family: var(--font-mono);
+    color: var(--color-text-muted);
+}
+.topbar__right {
+    gap: 1rem;
+}
+
+.window-controls__logo {
+    color: var(--color-accent);
+    font-family: var(--font-mono);
 }

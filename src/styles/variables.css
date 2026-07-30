@@ -1,0 +1,26 @@
+:root {
+
+    /* Colors */
+    --color-background: #16171d;
+    --color-surface: #1f2028;
+    --color-surface-light: #2e303a;
+
+    --color-text: #f3f4f6;
+    --color-text-muted: #9ca3af;
+
+    --color-accent: #c084fc;
+    --color-border: #2e303a;
+
+    /* Layout */
+    --topbar-height: 40px;
+    --statusbar-height: 24px;
+    --activitybar-width: 56px;
+
+    /* Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+
+    /* Typography */
+    --font-sans: system-ui, "Segoe UI", sans-serif;
+    --font-mono: "JetBrains Mono", Consolas, monospace;
+}
