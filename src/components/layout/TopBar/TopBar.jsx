@@ -30,19 +30,13 @@ function TopBar() {
 
             <div className="topbar__right">
 
-                <button
-                    className="theme-button"
-                    type="button"
-                    aria-label="Cambiar tema"
-                >
+                <button className="theme-button" type="button" aria-label="Cambiar tema">
                     🌙
                 </button>
-
 
                 <code className="window-controls__logo">
                     {"<A/>"}
                 </code>
-
 
             </div>
 
