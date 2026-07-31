@@ -1,14 +1,14 @@
-import { useState } from 'react'
 import MainLayout from "./layouts/MainLayout";
-//import './App.css'
+import { EditorProvider } from "./context/EditorContext";
 
 function App() {
-  return (
-    <>
-      <MainLayout />
-    </>
-  );
+    return (
+        <EditorProvider>
+
+            <MainLayout />
+
+        </EditorProvider>
+    );
 }
 
 export default App;
-

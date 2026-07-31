@@ -1,0 +1,24 @@
+.token.keyword{
+    color:#569CD6;
+}
+
+.token.variable{
+    color:#DCDCAA;
+}
+
+.token.property{
+    color:#9CDCFE;
+}
+
+.token.string{
+    color:#CE9178;
+}
+
+.token.number{
+    color:#B5CEA8;
+}
+
+.token.comment{
+    color:#6A9955;
+    font-style:italic;
+}

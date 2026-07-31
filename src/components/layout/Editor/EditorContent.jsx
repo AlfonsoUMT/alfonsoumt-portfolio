@@ -1,16 +1,17 @@
 import CodeEditor from "./code/CodeEditor";
-import "./EditorContent.css";
+import { aboutFile } from "../../../data/files/about";
 
-function EditorContent() {
 
-    return (
+function EditorContent(){
 
+    return(
         <div className="editor-content">
 
-            <CodeEditor />
+            <CodeEditor
+                lines={aboutFile}
+            />
 
         </div>
-
     );
 }
 
