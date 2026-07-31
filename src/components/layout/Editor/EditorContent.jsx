@@ -1,9 +1,16 @@
+import CodeEditor from "./code/CodeEditor";
 import "./EditorContent.css";
+
 function EditorContent() {
+
     return (
+
         <div className="editor-content">
-            Contenido
+
+            <CodeEditor />
+
         </div>
+
     );
 }
 

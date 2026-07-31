@@ -22,4 +22,5 @@
     /* Typography */
     --font-sans: system-ui, "Segoe UI", sans-serif;
     --font-mono: "JetBrains Mono", Consolas, monospace;
+    --font-size-code: 14px;
 }

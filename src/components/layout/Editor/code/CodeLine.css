@@ -1,0 +1,33 @@
+.code-line {
+
+    display: flex;
+
+    min-height: 24px;
+
+    font-family: var(--font-mono);
+
+    font-size: .9rem;
+
+}
+
+
+.code-line__number {
+
+    width: 40px;
+
+    text-align: right;
+
+    margin-right: 1rem;
+
+    color: var(--color-text-muted);
+
+    user-select: none;
+
+}
+
+
+.code-line__content {
+
+    color: var(--color-text);
+
+}
