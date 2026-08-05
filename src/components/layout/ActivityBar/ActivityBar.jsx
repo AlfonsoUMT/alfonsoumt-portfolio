@@ -7,42 +7,41 @@ import {
 } from "react-icons/vsc";
 
 import { MdLanguage } from "react-icons/md";
+import { useEditor } from "../../../context/EditorContext";
+import { editorFiles } from "../../../data/files";
 
 import ActivityButton from "./ActivityButton";
 import "./ActivityBar.css";
-function ActivityBar() {
+import { act } from "react";
 
+
+function ActivityBar() {
+    const { activeFile, setActiveFile } = useEditor();
     return (
 
         <aside className="activitybar">
 
             <div className="activitybar__top">
 
-                <ActivityButton
-                    icon={<VscFiles />}
-                    label="About"
-                    active
-                />
+                {
+                    Object.values(editorFiles).map((file) => {
 
-                <ActivityButton
-                    icon={<VscAccount />}
-                    label="Profile"
-                />
+                        const Icon = file.icon;
 
-                <ActivityButton
-                    icon={<VscFolderLibrary />}
-                    label="Projects"
-                />
+                        return (
 
-                <ActivityButton
-                    icon={<VscTools />}
-                    label="Skills"
-                />
+                            <ActivityButton
+                                key={file.id}
+                                icon={<Icon />}
+                                label={file.label}
+                                active={activeFile === file.id}
+                                onClick={() => setActiveFile(file.id)}
+                            />
 
-                <ActivityButton
-                    icon={<VscMail />}
-                    label="Contact"
-                />
+                        );
+
+                    })
+                }
 
             </div>
 
