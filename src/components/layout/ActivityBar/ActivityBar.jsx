@@ -9,6 +9,7 @@ import {
 import { MdLanguage } from "react-icons/md";
 import { useEditor } from "../../../context/EditorContext";
 import { editorFiles } from "../../../data/files";
+import { useLanguage } from "../../../context/LanguageContext";
 
 import ActivityButton from "./ActivityButton";
 import "./ActivityBar.css";
@@ -17,6 +18,7 @@ import { act } from "react";
 
 function ActivityBar() {
     const { activeFile, setActiveFile } = useEditor();
+    const { language, toggleLanguage } = useLanguage();
     return (
 
         <aside className="activitybar">
@@ -50,7 +52,8 @@ function ActivityBar() {
 
                 <ActivityButton
                     icon={<MdLanguage />}
-                    label="Language"
+                    label={language === "es" ? "Español" : "English"}
+                    onClick={toggleLanguage}
                 />
 
             </div>
