@@ -13,7 +13,7 @@ function TopBar() {
                     </code>
 
                     <span className="brand__name">
-                        Alfonso UMT
+                        AlfonsoUMT
                     </span>
 
                 </div>
@@ -22,7 +22,7 @@ function TopBar() {
 
             <div className="topbar__center">
                 <span className="topbar__file">
-                    about.jsx
+                    Sometimes, Colours mean more than colors.
                 </span>
             </div>
 

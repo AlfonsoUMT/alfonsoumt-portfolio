@@ -13,13 +13,6 @@ import { skillsFile } from "./skills";
 import { contactFile } from "./contact";
 
 export const editorFiles = {
-    about: {
-        id: "about",
-        label: "About",
-        name: "about.jsx",
-        icon: VscFiles,
-        content: aboutFile,
-    },
 
     profile: {
         id: "profile",
@@ -27,6 +20,14 @@ export const editorFiles = {
         name: "profile.jsx",
         icon: VscAccount,
         content: profileFile,
+    },
+
+    about: {
+        id: "about",
+        label: "About",
+        name: "about.jsx",
+        icon: VscFiles,
+        content: aboutFile,
     },
 
     projects: {

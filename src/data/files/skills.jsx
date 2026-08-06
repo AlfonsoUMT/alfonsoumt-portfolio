@@ -3,6 +3,7 @@ import Variable from "../../components/layout/Editor/code/Tokens/Variable";
 import Property from "../../components/layout/Editor/code/Tokens/Property";
 import String from "../../components/layout/Editor/code/Tokens/String";
 import Comments from "../../components/layout/Editor/code/Tokens/Comment";
+import Tab from "../../components/layout/Editor/code/Tokens/Tab";
 
 export const skillsFile = [
 
