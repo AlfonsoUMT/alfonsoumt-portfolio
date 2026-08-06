@@ -29,5 +29,6 @@
 .code-line__content {
 
     color: var(--color-text);
+    white-space: pre;
 
 }

@@ -22,3 +22,7 @@
     color:#6A9955;
     font-style:italic;
 }
+
+.token.tab {
+    white-space: pre;
+}

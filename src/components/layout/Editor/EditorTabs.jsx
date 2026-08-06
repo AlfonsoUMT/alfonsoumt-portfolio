@@ -1,10 +1,15 @@
 import "./EditorTabs.css";
 import { editorFiles } from "../../../data/files";
 import { useEditor } from "../../../context/EditorContext";
+
 function EditorTabs() {
+
     const { activeFile } = useEditor();
+
     const currentFile = editorFiles[activeFile];
+
     const FileIcon = currentFile.icon;
+
     return (
         <div className="editor-tabs">
 
@@ -16,6 +21,10 @@ function EditorTabs() {
 
                 <span className="editor-tab__name">
                     {currentFile.name}
+                </span>
+
+                <span className="editor-tab__close">
+                    ×
                 </span>
 
             </div>
