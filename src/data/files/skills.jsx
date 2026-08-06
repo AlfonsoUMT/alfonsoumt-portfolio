@@ -355,7 +355,7 @@ export const skillsFile = [
                 {"    "}
                 <Property>english</Property>
                 {": "}
-                <String>"B3"</String>
+                <String>"B2"</String>
             </>
         )
     },
