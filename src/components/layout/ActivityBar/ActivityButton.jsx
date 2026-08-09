@@ -1,6 +1,6 @@
 import "./ActivityButton.css";
 
-function ActivityButton({ icon, label, active , onClick}) {
+function ActivityButton({ icon, label, active, onClick }) {
 
     return (
         <button

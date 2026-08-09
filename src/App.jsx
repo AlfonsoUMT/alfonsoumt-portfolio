@@ -1,18 +1,24 @@
 import MainLayout from "./layouts/MainLayout";
 import { EditorProvider } from "./context/EditorContext";
 import { LanguageProvider } from "./context/LanguageContext";
+import { ThemeProvider } from "./context/ThemeContext";
 
 function App() {
     return (
-        <LanguageProvider>
+        <ThemeProvider>
 
-            <EditorProvider>
+            <LanguageProvider>
 
-                <MainLayout />
+                <EditorProvider>
 
-            </EditorProvider>
+                    <MainLayout />
 
-        </LanguageProvider>
+                </EditorProvider>
+
+            </LanguageProvider>
+
+        </ThemeProvider>
+
     );
 }
 

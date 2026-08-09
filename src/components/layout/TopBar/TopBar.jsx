@@ -1,8 +1,11 @@
 import { LuMoon } from "react-icons/lu";
+import { useTheme } from "../../../context/ThemeContext";
 import "./TopBar.css";
 
 function TopBar() {
+    const { theme, toggleTheme } = useTheme();
     return (
+
         <header className="topbar">
 
             <div className="topbar__left">
@@ -32,6 +35,7 @@ function TopBar() {
                     className="theme-button"
                     type="button"
                     aria-label="Cambiar tema"
+                    onClick={toggleTheme}
                 >
                     <LuMoon />
                 </button>
