@@ -8,3 +8,10 @@
 
     background: var(--color-background);
 }
+@media (max-width: 600px) {
+
+    .code-editor {
+        font-size: 13px;
+    }
+
+}

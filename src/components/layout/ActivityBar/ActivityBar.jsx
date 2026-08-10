@@ -13,7 +13,6 @@ import { useLanguage } from "../../../context/LanguageContext";
 
 import ActivityButton from "./ActivityButton";
 import "./ActivityBar.css";
-import { act } from "react";
 
 
 function ActivityBar() {
