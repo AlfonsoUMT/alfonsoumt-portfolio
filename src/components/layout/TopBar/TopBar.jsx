@@ -1,4 +1,4 @@
-import { LuMoon } from "react-icons/lu";
+import { LuMoon, LuSun } from "react-icons/lu";
 import { useTheme } from "../../../context/ThemeContext";
 import "./TopBar.css";
 
@@ -34,10 +34,14 @@ function TopBar() {
                 <button
                     className="theme-button"
                     type="button"
-                    aria-label="Cambiar tema"
+                    aria-label={
+                        theme === "dark"
+                            ? "Cambiar a tema claro"
+                            : "Cambiar a tema oscuro"
+                    }
                     onClick={toggleTheme}
                 >
-                    <LuMoon />
+                    {theme === "dark" ? <LuSun /> : <LuMoon />}
                 </button>
 
                 <code className="topbar__signature">

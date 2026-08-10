@@ -1,26 +1,26 @@
-.token.keyword{
-    color:#569CD6;
+.token.keyword {
+    color: var(--token-keyword);
 }
 
-.token.variable{
-    color:#DCDCAA;
+.token.variable {
+    color: var(--token-variable);
 }
 
-.token.property{
-    color:#9CDCFE;
+.token.property {
+    color: var(--token-property);
 }
 
-.token.string{
-    color:#CE9178;
+.token.string {
+    color: var(--token-string);
 }
 
-.token.number{
-    color:#B5CEA8;
+.token.number {
+    color: var(--token-number);
 }
 
-.token.comments{
-    color:#6A9955;
-    font-style:italic;
+.token.comments {
+    color: var(--token-comments);
+    font-style: italic;
 }
 
 .token.tab {
