@@ -1,0 +1,28 @@
+.token.keyword {
+    color: var(--token-keyword);
+}
+
+.token.variable {
+    color: var(--token-variable);
+}
+
+.token.property {
+    color: var(--token-property);
+}
+
+.token.string {
+    color: var(--token-string);
+}
+
+.token.number {
+    color: var(--token-number);
+}
+
+.token.comments {
+    color: var(--token-comments);
+    font-style: italic;
+}
+
+.token.tab {
+    white-space: pre;
+}

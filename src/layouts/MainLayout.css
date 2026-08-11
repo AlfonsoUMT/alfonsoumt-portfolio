@@ -1,0 +1,43 @@
+.main-layout {
+    height: 100vh;
+    display: grid;
+
+    grid-template-rows: 40px 1fr 24px;
+
+    overflow: hidden;
+}
+
+
+.main-content {
+    display: grid;
+
+    grid-template-columns: 60px 1fr;
+
+    overflow: hidden;
+}
+
+
+@media (max-width: 600px) {
+
+    .main-layout {
+        grid-template-rows: 40px 1fr;
+    }
+
+    .main-content {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+    }
+
+    .main-content > .activitybar {
+        order: 2;
+    }
+
+    .main-content > .editor {
+        order: 1;
+    }
+
+    .main-layout > .statusbar {
+        display: none;
+    }
+
+}

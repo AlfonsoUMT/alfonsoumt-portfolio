@@ -1,0 +1,57 @@
+:root {
+
+    /* Colors */
+    --color-background: #16171d;
+    --color-surface: #1f2028;
+    --color-surface-light: #2e303a;
+
+    --color-text: #f3f4f6;
+    --color-text-muted: #9ca3af;
+
+    --color-accent: #1a4796;
+    --color-border: #2e303a;
+
+    /* Syntax highlighting */
+    --token-keyword: #569CD6;
+    --token-variable: #DCDCAA;
+    --token-property: #9CDCFE;
+    --token-string: #CE9178;
+    --token-number: #B5CEA8;
+    --token-comments: #6A9955;
+
+    /* Layout */
+    --topbar-height: 40px;
+    --statusbar-height: 24px;
+
+    /* Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+
+    /* Typography */
+    --font-sans: system-ui, "Segoe UI", sans-serif;
+    --font-mono: "JetBrains Mono", Consolas, monospace;
+    --font-size-code: 14px;
+}
+
+
+[data-theme="light"] {
+
+    /* Colors */
+    --color-background: #eaf3ff;
+    --color-surface: #d5ddf7;
+    --color-surface-light: #e8f2ff;
+
+    --color-text: #1f2937;
+    --color-text-muted: #6b7280;
+
+    --color-accent: #1a4796;
+    --color-border: #969494;
+
+    /* Syntax highlighting */
+    --token-keyword: #0000FF;
+    --token-variable: #795E26;
+    --token-property: #001080;
+    --token-string: #A31515;
+    --token-number: #098658;
+    --token-comments: #008000;
+}
