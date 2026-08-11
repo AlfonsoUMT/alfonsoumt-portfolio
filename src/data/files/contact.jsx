@@ -35,7 +35,7 @@ export const contactFile = [
                 <Tab />
                 <Property>name</Property>
                 {": "}
-                <String>"Alfonso Ulises Mendieta Torres"</String>
+                <String>"Alfonso U Mendieta Torres"</String>
                 {","}
             </>
         )
@@ -48,7 +48,7 @@ export const contactFile = [
                 <Tab />
                 <Property>email</Property>
                 {": "}
-                <String>""</String>
+                <String>"alfpul.noreply@gmail.com"</String>
                 {","}
             </>
         )
@@ -72,47 +72,34 @@ export const contactFile = [
         content: (
             <>
                 <Tab />
-                <Property>linkedin</Property>
+                <Property>github</Property>
                 {": "}
-                <String>""</String>
-                {","}
+                <String>"AlfonsoUMT"</String>
             </>
         )
     },
 
     {
         line: 9,
-        content: (
-            <>
-                <Tab />
-                <Property>github</Property>
-                {": "}
-                <String>""</String>
-            </>
-        )
-    },
-
-    {
-        line: 10,
         content: "};"
     },
 
     {
-        line: 11,
+        line: 10,
         content: ""
     },
 
     {
-        line: 12,
+        line: 11,
         content: (
             <Comments>
-                {"// Available for opportunities, collaborations and interesting projects."}
+                {"// Available."}
             </Comments>
         )
     },
 
     {
-        line: 13,
+        line: 12,
         content: (
             <>
                 <Keyword>export default</Keyword>

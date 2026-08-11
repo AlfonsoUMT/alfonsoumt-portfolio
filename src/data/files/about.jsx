@@ -35,7 +35,7 @@ export const aboutFile = [
                 <Tab />
                 <Property>name</Property>
                 {": "}
-                <String>"Alfonso Ulises Mendieta Torres"</String>
+                <String>"Alfonso U Mendieta Torres"</String>
                 {","}
             </>
         )

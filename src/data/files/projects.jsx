@@ -144,7 +144,7 @@ export const projectsFile = [
                 <Tab />
                 <Property>name</Property>
                 {": "}
-                <String>"Alfonso UMT Portfolio"</String>
+                <String>"AlfonsoUMT Portfolio"</String>
                 {","}
             </>
         )
